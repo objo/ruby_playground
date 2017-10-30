@@ -17,16 +17,16 @@ else
   puts "Sorry, the number you entered was #{ number } the lottery number was #{ lottery }"
 end
 
-#
+
 # case
 #   when number < LOWER_BOUND then puts "Sorry, we asked you for a number greater than #{ LOWER_BOUND }"
 #   when number > UPPER_BOUND then puts "Sorry, we asked you for a number less than #{ UPPER_BOUND }"
 #   when number == lottery    then puts "YAY!!! YOU GUESSED IT"
 #   else puts "Sorry, the number you entered was #{ number } the lottery number was #{ lottery }"
 # end
-#
-#
-#
+
+
+
 
 
 
