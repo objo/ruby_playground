@@ -8,7 +8,7 @@ phrase_as_array = phrase.split('')
 
 SYMBOLS = ["&", "@", "#", ".", "<", ">"]
 
-passphrase = phrase_as_array.collect(do |character|
+passphrase = phrase_as_array.collect do |character|
   case character.downcase
     when 'a' then '4'
     when 'e' then '3'
