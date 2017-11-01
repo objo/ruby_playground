@@ -7,3 +7,5 @@ if (number % 2) == 0
 else
   puts "Number is Odd"
 end
+
+(number % 2) ? puts "Number is Even" : puts "Number is Odd"

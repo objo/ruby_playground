@@ -113,3 +113,11 @@ puts name.split('') # will output ['m','y','n' .....]
 puts "joe".sub('o', '0')  # outputs "j0e"
 
 # gsub substitutes ALL instances
+
+
+if 7 > 4
+  puts "Yes math works"
+end
+
+puts "Yes math works" if 7 > 4
+puts "Yes math still works" unless 7 < 4
